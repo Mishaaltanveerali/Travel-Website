@@ -1,0 +1,396 @@
+.navbar-brand
+{
+	font-size: 40px;
+	padding-right: 300px;
+	
+
+}
+.nav-log
+{
+	font-size: 17px;
+}
+.carousel-caption
+{
+	font-size: 40px;
+	padding-right: 500px;
+	margin-bottom: 200px;
+}
+.b1
+{
+	margin-top: 20px;
+	text-align: center;
+}
+.carousel-inner
+{
+	margin-top: 20px;
+}
+.row
+{
+	margin-top: 25px;
+}
+.head1
+{
+	text-align: center;
+	margin-top: 40px;
+}
+.img1
+{
+	margin-left: 200px;
+	margin-top: 50px;
+}
+.text1
+{
+    margin-left: 30px;
+	margin-top: 50px;
+}
+.btn
+{
+	margin-left: 260px;
+	margin-bottom: 50px;
+}
+.col-lg-6 mb-4{
+
+}
+.head2
+{
+	text-align: center;
+	margin-top: 40px;
+}
+.img2
+{
+	margin-left: 200px;
+	margin-top: 50px;
+}
+.text2
+{
+    margin-left: 30px;
+	margin-top: 50px;
+}
+.btn1
+{
+	margin-left: 260px;
+	margin-bottom: 50px;
+}
+.head3
+{
+	text-align: center;
+	margin-top: 100px;
+}
+.navbar .navbar-nav .nav-link {
+  color: #000000;
+  font-size: 1.1em;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: #000000;
+}
+.navbar .navbar-nav .nav-item {
+  position: relative;
+}
+.navbar .navbar-nav .nav-item::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #000000;
+  width: 0%;
+  content: "";
+  height: 4px;
+  transition: all 0.5s;
+}
+.navbar .navbar-nav .nav-item:hover::after {
+  width: 80%;
+}
+#hero{
+  position: relative;
+  font-size: 100px;
+}
+#hero video {
+  height: 90vh;
+  width: 100%;
+  background-position:absolute;
+  z-index:10;
+  object-fit: cover;
+}
+ ------button ---------
+ 
+
+
+
+.btn-button {
+  background-color: #1F618D ;
+  color: yellow;
+  border: 0.5px;
+  
+
+}
+
+.btn-button:hover {
+ text-decoration: none;
+  color: #A93226  ;
+  background: #F1C40F ;
+}
+.bg-img
+{
+	background-image: url(img/flights.jpg);
+}
+
+
+@media (min-width: 1025px) {
+.h-custom-2 {
+height: 100%;
+}
+}
+.btn btn-info btn-lg btn-block
+{
+	margin-left: 300px;
+}
+
+.gradient-custom-3 {
+background: #84fab0;
+background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+}
+.gradient-custom-4 {
+background: #84fab0;
+background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+}
+#hero1{
+  position: relative;
+  font-size: 100px;
+  margin-top: 40px;
+ 
+
+  }
+  #hero1 video {
+  height: 90vh;
+  width: 100%;
+  background-position:absolute;
+  z-index:10;
+  object-fit: cover;
+}
+
+.b2
+{
+	margin-top: 40px;
+	margin-left: 30px;
+}
+.table{
+	margin-top: 40px;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+.b3{
+	margin-top: 40px;
+	margin-left: 30px;
+}
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.card
+{
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 40px;
+}
+.card-group{
+	margin-top: 40px;
+}
+.card3{
+	margin-left: 40px;
+	margin-top: 40px;
+}
+.card4{
+	margin-left: 40px;
+	margin-top: 40px;
+}
+.b4{
+	margin-left: 40px;
+	margin-top: 40px;
+}
+
+.nav-log
+{
+	font-size: 17px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #000000;
+  font-size: 1.1em;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: #000000;
+}
+.navbar .navbar-nav .nav-item {
+  position: relative;
+}
+.navbar .navbar-nav .nav-item::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #000000;
+  width: 0%;
+  content: "";
+  height: 4px;
+  transition: all 0.5s;
+}
+.navbar .navbar-nav .nav-item:hover::after {
+  width: 80%;
+}
+
+.main-txt h1{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    
+}
+.main-txt h1 span{
+    color: #964B00;
+}
+.packages .card{
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px ;
+}
+.packages .card img{
+    border-radius: 5px;
+}
+.packages .card .card-body{
+    background: transparent;
+}
+.packages .card .card-body h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.packages .card .card-body p{
+    font-size: 15px;
+}
+
+.packages .card .card-body h6{
+    font-size: 20px;
+}
+.packages .card .card-body a{
+    padding: 10px;
+    text-decoration: none;
+    background: #ffa500;
+    color: white;
+    border-radius: 5px;
+}
+.list-group{
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 40px;
+
+}
+.m1
+{
+	text-align: center;
+}
+.form {
+  border: 4px solid #f1f1f1;
+}
+
+.container {
+  padding: 20px;
+  
+}
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: #0000FF;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #000000;
+  font-size: 1.1em;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: #000000;
+}
+.navbar .navbar-nav .nav-item {
+  position: relative;
+}
+.navbar .navbar-nav .nav-item::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #000000;
+  width: 0%;
+  content: "";
+  height: 4px;
+  transition: all 0.5s;
+}
+.navbar .navbar-nav .nav-item:hover::after {
+  width: 80%;
+}
+
+nav-log
+{
+    font-size: 17px;
+}
+
+
+.main-txt h1 span{
+    color: #964B00;
+}
+.card-title {
+  text-align: center;
+  font-weight: bold;
+  color: #007bff;
+}
+.card-text{
+     text-align: center;
+}
+.li{
+    color: white;
+}
+
+
+
+
